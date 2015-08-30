@@ -2,6 +2,7 @@
     "name": "tebazil/yii2-vodka-behavior",
     "description": "Yii2 joke extension that intercepts the application response and replaces it with joke messages",
     "type": "yii2-extension",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Vasiliy Baukin",
