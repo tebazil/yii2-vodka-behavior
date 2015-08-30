@@ -60,21 +60,27 @@ return [
 	'as vodka'=> [
 		'class'=>'tebazil\yii2\behaviors\vodka\VodkaBehavior',
 		'probability'=>0.95,
-		'phrase'=>'Hi, I am your application ... Intrigued, huh? Here is what I have to say:',
+		'phrase'=>
+		    'Hi, I am your application ... Intrigued, huh? Here is what I have to say:',
 		'generators'=>[
 		function() {
-		  return 'I think everything is possible. You just have to listen to your heart and work hard.';
+		  return 'I think everything is possible. 
+		  You just have to listen to your heart and work hard.';
 		},
 		function() {
 		    $coreDevs = ['Quang','Cebe','Samdark','Will Smith'];
-		    $tails = [
+		    $endingPhrases = [
 		        'The resemblance is unique.',
 		        'Sometimes they drink tea together.',
 		        'But only in the dark.',
 		    ];
-		    $randMember = function($arr) use { return $arr[array_rand($arr)]; };
-		    return $randMember($coreDevs).' looks like '.$randMember($coreDevs).'. '.$randMember($tails);
-		    
+		    $randMember = function($arr) { 
+		        return $arr[array_rand($arr)]; 
+		    };
+		    return 
+		        $randMember($coreDevs).' looks like '.
+		        $randMember($coreDevs).'. '.
+		        $randMember($endingPhrases);
 		}
 		]
 	],
