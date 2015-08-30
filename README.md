@@ -78,7 +78,7 @@ return [
 		  You just have to listen to your heart and work hard.';
 		},
 		function() {
-		    $coreDevs = ['Quang','Cebe','Samdark','Will Smith'];
+		    $coreDevs = ['Qiang','Cebe','Samdark','Will Smith'];
 		    $endingPhrases = [
 		        'The resemblance is unique.',
 		        'Sometimes they drink tea together.',
