@@ -1,6 +1,16 @@
 # Vodka. Your application talks to you (tm) 
 
-Vodka is a joke "drunk" application behavior that intercepts the response at a given probability (default is 0.75) and replaces it with some "quote" from the default or custom generators. Works for both web and console application.
+Vodka is a joke "drunk" application behavior that intercepts the response at a given probability (default is 0.75) and replaces it with some "quote" from the default or custom generators. Works for both web and console application.  
+Here is the output example:
+```
+VODKA BEHAVIOR says:
+Obna obbbaaoo n  bnbnb oabb bnn 
+a bn  a anba baaooaobboboaabna n  nboo oan b a   oa nbonbao ona b
+  obnob b nob bb  nnnb  boaban b n o anon oaoannan oaaooaaababobo
+anonob a anooaao nb aa ooo bb  n bnnabab abbbbno bnb nnoboo noano
+ooanabaaoonn anaao ab n an  ona  n o  anaaa nbobbann  anoo boa ob
+banaooa    noanaonbbno o oono  a .
+```
 
 ## Installation
 
